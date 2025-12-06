@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Запись — Barbershop Шымкент</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header"> <!-- same header --></header>
+
+<section class="section">
+  <div class="container">
+    <h2 class="h2 reveal">Записаться онлайн</h2>
+    <p class="sub reveal">Оставьте заявку — перезвоним, подтвердим время и мастера.</p>
+
+    <form id="bookingForm" class="form reveal">
+      <input class="input" type="text" name="name" placeholder="Ваше имя">
+      <input class="input" type="tel" name="phone" placeholder="Телефон">
+      <select name="service">
+        <option value="">Выберите услугу</option>
+        <option>Стрижка</option>
+        <option>Бритьё</option>
+        <option>Борода</option>
+      </select>
+      <input class="input" type="datetime-local" name="time">
+      <textarea rows="4" name="note" placeholder="Комментарий (необязательно)"></textarea>
+      <button class="btn primary" type="submit">Отправить</button>
+    </form>
+  </div>
+</section>
+
+<footer class="footer"><div class="container row"><div>© 2025 BARBERSHOP Шымкент</div><div><a href="contact.html">Контакты</a></div></div></footer>
+<script src="js/script.js"></script>
+</body>
+</html>
